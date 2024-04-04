@@ -30,8 +30,8 @@ On call this C# web api interacts with a cli-tool called AnimDL to get video sou
 
 
 ## Security
-There are no things implemented to secure the API, everybody could call it and use your bandwith or put you in danger, so if you use it watch the connections, implement security related changes or wait for me to implement something (like a key etc.).
-
+- There are no things implemented to secure the API, everybody could call it and use your bandwith or put you in danger, so if you use it watch the connections, implement security related changes or wait for me to implement something (like a key etc.).
+- Right now the api runs with http not https so use it on your own risk.
 
 ## Installation/Usage
 - Get the code, build and run it but also adjust the path for this API in the swift app's code
